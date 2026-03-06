@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@source "./src/**/*.{html,js,jsx,ts,tsx,vue,svelte}";
+@source "./components/**/*.{js,jsx,ts,tsx,vue,svelte}";
+@source "./pages/**/*.{js,jsx,ts,tsx,vue,svelte}";
+
+@custom-variant dark (&:where(.dark, .dark *));
